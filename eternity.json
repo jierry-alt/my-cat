@@ -3,11 +3,12 @@
   "author": "Eternity",
   "spider": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/index.js",
   "sites": [
-    {"key": "eternity_t4", "name": "✨ Eternity 工具 / 直播", "type": 3, "api": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/eternity.json#t4"},
-    {"key": "eternity_cms", "name": "🌐 Eternity 采集站", "type": 3, "api": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/eternity.json#cms"},
-    {"key": "eternity_alist", "name": "📂 Eternity Alist", "type": 0, "api": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/eternity.json#alist"},
-
-    {"key": "wex9280", "name": "🔥 王二小 / 9280 猫源", "type": 3, "api": "https://9280.kstore.vip/cat/index.js.md5", "searchable": 1}
+    {"key": "eternity_live", "name": "✨ Eternity 直播 / 工具", "type": 3, "api": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/eternity.json#t4"},
+    {"key": "eternity_cms", "name": "🌐 Eternity 采集站", "type": 1, "api": "http://by.bfzyapi.com/api.php/provide/vod", "searchable": 1},
+    {"key": "eternity_iqiyi", "name": "🪐 Eternity iQiYi采集", "type": 1, "api": "https://iqiyizyapi.com/api.php/provide/vod", "searchable": 1},
+    {"key": "w9280", "name": "🔥 王二小 / 9280 猫源", "type": 3, "api": "https://9280.kstore.vip/cat/index.js.md5", "searchable": 1},
+    {"key": "alist1", "name": "🐉 Eternity 神族九帝", "type": 0, "api": "https://alist.shenzjd.com"},
+    {"key": "alist2", "name": "💢 Eternity repl", "type": 0, "api": "https://ali.liucn.repl.co"}
   ],
   "lives": [],
   "parses": [],
@@ -34,15 +35,5 @@
       {"name": "📻 Eternity 凤凰FM", "address": "http://zhangqun1818.serv00.net:6628/?spider=凤凰fm"},
       {"name": "🐰 Eternity 兔贝少儿", "address": "http://zhangqun1818.serv00.net:6628/?spider=兔小贝"}
     ]
-  },
-  "cms": {
-    "list": [
-      {"name": "🌪️ Eternity 暴风采集", "address": "http://by.bfzyapi.com/api.php/provide/vod"},
-      {"name": "🪐 Eternity iQiYi采集", "address": "https://iqiyizyapi.com/api.php/provide/vod"}
-    ]
-  },
-  "alist": [
-    {"name": "🐉 Eternity 神族九帝", "server": "https://alist.shenzjd.com"},
-    {"name": "💢 Eternity repl", "server": "https://ali.liucn.repl.co"}
-  ]
+  }
 }
