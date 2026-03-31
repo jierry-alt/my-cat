@@ -6,7 +6,6 @@
     {"key": "eternity_live", "name": "✨ Eternity 直播 / 工具", "type": 3, "api": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/eternity.json#t4"},
     {"key": "eternity_bfzy", "name": "🌪️ Eternity 暴风采集", "type": 1, "api": "http://by.bfzyapi.com/api.php/provide/vod", "searchable": 1},
     {"key": "eternity_iqiyi", "name": "🪐 Eternity iQiYi采集", "type": 1, "api": "https://iqiyizyapi.com/api.php/provide/vod", "searchable": 1},
-    {"key": "guazi", "name": "🤡♡｡Eternity.✨ 瓜子影视", "type": 4, "api": "https://gz360.tv/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "filterable": 1},
     {"key": "eternity_alist1", "name": "🐉 Eternity 神族九帝", "type": 0, "api": "https://alist.shenzjd.com"},
     {"key": "eternity_alist2", "name": "💢 Eternity repl", "type": 0, "api": "https://ali.liucn.repl.co"}
   ],
