@@ -1,60 +1,24 @@
 {
-  "name": "♡ Eternity TVBox订阅",
-  "author": "Eternity",
-  "description": "Eternity 私人定制源 · 仅供学习交流",
-  "wallpaper": "https://i2.100024.xyz/2024/01/13/pptcej.webp",
-  "spider": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/index.js",
-  "lives": [],
-  "parses": [],
-  "rules": [],
-  "sites": [],
-  "t4": {
-    "list": [
-      {"name": "✈️ Eternity TG频道", "address": "http://zhangqun1818.serv00.net:6628/?spider=独播库"},
-      {"name": "📡 Eternity IPTV直播", "address": "https://iptv.jsnzkpg.uk"},
-      {"name": "🐯 Eternity 虎牙直播", "address": "https://php.doube.eu.org/spider/php/虎牙直播.php"},
-      {"name": "🅱️ Eternity 哔哩直播", "address": "https://bilibili.jsnzkpg.uk"},
-      {"name": "🎞️ Eternity 影视爬虫", "address": "https://dy.7772888.xyz/api.php/tvbox"},
-      {"name": "🍟 Eternity Emby嗅探", "address": "http://zhangqun1818.serv00.net:6628/?spider=emby"},
-      {"name": "⚡️ Eternity VIP嗅探", "address": "https://php.doube.eu.org/spider/php/官方资源.php"},
-      {"name": "🍁 Eternity 非凡PHP", "address": "https://php.doube.eu.org/spider/php/非凡资源.php"},
-      {"name": "🐣 Eternity 天堂PHP", "address": "https://php.doube.eu.org/spider/php/电影天堂.php"},
-      {"name": "💧 Eternity 欧乐PHP", "address": "https://php.doube.eu.org/spider/php/欧乐影院.php"},
-      {"name": "🦄 Eternity U视影视", "address": "http://zhangqun1818.serv00.net:5052/?sp=UVod"},
-      {"name": "🥔 Eternity 土豆影视", "address": "http://zhangqun1818.serv00.net:5052/?sp=土豆浏览器"},
-      {"name": "🐈‍⬛ Eternity 七猫短剧", "address": "http://zhangqun1818.serv00.net:6628/?spider=七猫短剧"},
-      {"name": "🍚 Eternity 西饭短剧", "address": "http://zhangqun1818.serv00.net:6628/?spider=西饭短剧"},
-      {"name": "🦛 Eternity 河马短剧", "address": "http://zhangqun1818.serv00.net:5052/?sp=河马短剧"},
-      {"name": "🇨🇳 Eternity 央视栏目", "address": "https://catbox.n13.club/18/央视影视.php"},
-      {"name": "📻 Eternity 凤凰FM", "address": "http://zhangqun1818.serv00.net:6628/?spider=凤凰fm"},
-      {"name": "🐰 Eternity 兔贝少儿", "address": "http://zhangqun1818.serv00.net:6628/?spider=兔小贝"}
-    ]
-  },
-  "cms": {
-    "list": [
-      {"name": "🌪️ Eternity 暴风采集", "address": "http://by.bfzyapi.com/api.php/provide/vod"},
-      {"name": "🪐 Eternity iQiYi采集", "address": "https://iqiyizyapi.com/api.php/provide/vod"}
-    ]
-  },
-  "alist": [
-    {
-      "name": "🐉 Eternity 神族九帝",
-      "server": "https://alist.shenzjd.com"
-    },
-    {
-      "name": "💢 Eternity repl",
-      "server": "https://ali.liucn.repl.co"
-    }
-  ],
-  "danmu": {
-    "urls": [
-      {"address": "https://logdanmu.dpdns.org", "name": "Eternity默认1"},
-      {"address": "https://fjj0417.dpdns.org/87654321", "name": "Eternity默认2"},
-      {"address": "https://dm.stardm.us.kg:443/87654321", "name": "Eternity默认3"},
-      {"address": "https://danmu.14812910.xyz/87654321", "name": "Eternity默认4"},
-      {"address": "https://313236.xyz/87654321", "name": "Eternity默认5"}
-    ],
-    "autoPush": true
-  },
-  "color": []   // 如果需要颜色主题可后续补充
+ "name": "♡ Eternity TVBox订阅",
+ "author": "Eternity",
+ "spider": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/index.js",
+ "sites": [
+ {
+ "key": "eternity_t4",
+ "name": "✨ Eternity 工具/直播",
+ "type": 3,
+ "api": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/eternity.json#t4"
+ },
+ {
+ "key": "eternity_cms",
+ "name": "🌐 Eternity 采集站",
+ "type": 3,
+ "api": "https://raw.githubusercontent.com/jierry-alt/my-cat/main/eternity.json#cms"
+ }
+ ],
+ "lives": [],
+ "parses": [],
+ "rules": [],
+ "wallpaper": "https://i2.100024.xyz/2024/01/13/pptcej.webp"
 }
+ 
